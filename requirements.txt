@@ -1,0 +1,28 @@
+# Core YOLOv8 Framework (REQUIRED)
+ultralytics>=8.2.0
+
+# PyTorch (YOLOv8 backbone - auto-detects CUDA GPU if available)
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# Data Processing & Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+psutil>=5.9.0
+
+# Visualization & Logging
+tensorboard>=2.13.0
+wandb>=0.15.0  # Optional (Weights & Biases for training tracking)
+
+# Export/Deployment (ONNX, TensorRT, CoreML)
+onnx>=1.14.0
+onnxruntime>=1.15.0
